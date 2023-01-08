@@ -1,0 +1,11 @@
+.common_input {
+  width: 100%;
+}
+
+.common_input > input {
+  width: 100%;
+  border: 1px solid #ffd589;
+  height: 40px;
+  border-radius: 8px;
+  padding: 0 1rem;
+}

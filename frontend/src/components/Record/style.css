@@ -1,0 +1,38 @@
+.common_record {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 6px #f6f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bunting {
+  display: flex;
+  justify-content: flex-end;
+}
+.bunting > h6 {
+  background-color: #178717;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.no_bunting {
+  display: flex;
+  justify-content: flex-end;
+}
+.no_bunting > h6 {
+  background-color: #e36666;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.record_title {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+.record_delete {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

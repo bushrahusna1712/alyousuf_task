@@ -1,0 +1,10 @@
+.common_checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.common_checkbox > input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.login_cmp {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  width: 350px;
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 1px #e1e1e1;
+}
+
+.login_btns {
+  display: flex;
+  justify-content: center;
+}
+
+.login_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login_head > h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}

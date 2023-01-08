@@ -1,0 +1,31 @@
+.common_btn {
+  cursor: pointer;
+  background-color: #f6a613;
+  padding: 0.6rem 0;
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.common_btn > p {
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.common_btn_sec {
+  background-color: transparent;
+  border: 1px solid #ffd589;
+}
+.common_btn_sec > p {
+  color: #f6a613;
+}
+
+.common_btn_ter {
+  background-color: transparent; 
+  padding: 0;
+}
+.common_btn_ter > p {
+  color: #f6a613;
+  text-decoration-line: underline;
+}
